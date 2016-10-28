@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_102" class="java.beans.XMLDecoder">
+ <object class="reformas.ListaClientes" id="ListaClientes0">
+  <void property="lista">
+   <void method="add">
+    <object class="reformas.Cliente">
+     <void property="apellidos">
+      <string>1</string>
+     </void>
+     <void property="misPresupuestos">
+      <object class="reformas.ListaPresupuestos" id="ListaPresupuestos0">
+       <void property="listaPresupuesto">
+        <void method="add">
+         <object class="reformas.Presupuesto">
+          <void property="NPresupuesto">
+           <int>1</int>
+          </void>
+          <void property="concepto">
+           <string>1</string>
+          </void>
+          <void property="estado">
+           <string>Pendiente</string>
+          </void>
+          <void property="precioTotal">
+           <int>1</int>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="reformas.Presupuesto">
+          <void property="NPresupuesto">
+           <int>1</int>
+          </void>
+          <void property="concepto">
+           <string>1</string>
+          </void>
+          <void property="estado">
+           <string>Pendiente</string>
+          </void>
+          <void property="precioTotal">
+           <int>1</int>
+          </void>
+         </object>
+        </void>
+       </void>
+      </object>
+     </void>
+     <void property="nombre">
+      <string>1</string>
+     </void>
+     <void property="telefono">
+      <string>123456789</string>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>
